@@ -17,5 +17,5 @@ analysis.py - simple graph analysis
 dnc_network/ - R Shiny web application
 
 Running the R Shiny app:
->>> library(shiny)
->>> runApp('dnc_network')]
+library(shiny)
+runApp('dnc_network')]
