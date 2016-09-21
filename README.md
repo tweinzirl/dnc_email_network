@@ -2,7 +2,7 @@ Project contents:
 
 dnc-downloader.sh - Email downloader script
 
-dnc-email-graph.gml (the graph)
+dnc-email-graph.graphml (the graph)
 
 Email metadata files:
 dnc_to-out.tab - sender per email
