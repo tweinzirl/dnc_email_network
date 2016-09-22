@@ -203,7 +203,7 @@ for gci in good_cluster_index:
     vsize[vs[pylab.argmax(cldegree)]]=14
 
 #redraw graph with updated coloring for community membership
-plot(g, "graph-clusters-Fig4.png", layout=layout, vertex_color=colors, edge_color='gray',vertex_size=vsize, bbox=(1000,1000))
+plot(g, "graph-clusters-Fig5.png", layout=layout, vertex_color=colors, edge_color='gray',vertex_size=vsize, bbox=(1000,1000))
 
 ##### sanity checks
 #write remaining vertex names to file

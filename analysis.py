@@ -59,7 +59,7 @@ pylab.ylabel(r'Cumulative fraction of emails')
 pylab.annotate('Maximum emails exchanged per edge: %d'%max(g.es['mag']),(0.5,0.15),xycoords='axes fraction',ha='center',size=13)
 pylab.xlim(0,200)
 
-pylab.savefig('cumEmails-Fig2.png')
+pylab.savefig('cumEmails-Fig3.png')
 
 ###community analysis plot
 pylab.figure(figsize=(8,6))
@@ -86,4 +86,4 @@ for i in range(len(srtd)):
     pylab.axvline(x=srtd[i],ls=':',c=color[i],ymax=0.9,label='%s (degree = %d)'%(g.vs.find(_degree=srtd[i])['name'],srtd[i]),lw=3)
 
 pylab.legend(numpoints=1,loc='best')
-pylab.savefig('stepPlot-Fig3.png')
+pylab.savefig('stepPlot-Fig4.png')
