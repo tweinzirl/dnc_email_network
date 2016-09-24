@@ -55,7 +55,7 @@ sums,bins,crap = pylab.hist(g.es['mag'],bins=pylab.arange(0,215,5),cumulative=1)
 pylab.cla()
 pylab.plot(bins[:-1], sums/float(len(g.es)), 'b-', drawstyle='steps-mid')
 pylab.xlabel('Number of emails exchanged per edge')
-pylab.ylabel(r'Cumulative fraction of emails')
+pylab.ylabel(r'Cumulative fraction of edges')
 pylab.annotate('Maximum emails exchanged per edge: %d'%max(g.es['mag']),(0.5,0.15),xycoords='axes fraction',ha='center',size=13)
 pylab.xlim(0,200)
 
